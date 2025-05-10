@@ -38,8 +38,8 @@ function BannerSectionTwo({ className }) {
                                 <h1 className="title animate-3">Technology Solutions for Future</h1>
                                 
                                 <div className="btn-box animate-4">
-                                    <Link  to="/about-us" className="theme-btn btn-style-one">
-                                    <span className="btn-title">Discover more</span></Link >
+                                    <a  href="#offer" className="theme-btn btn-style-one">
+                                    <span className="btn-title">Discover more</span></a>  
                                 </div>
                             </div>
                         </div>
@@ -53,8 +53,8 @@ function BannerSectionTwo({ className }) {
                                 <span className="sub-title animate-2">Solutions for your businesses</span>
                                 <h1 className="title animate-3">Technology Solutions for Future</h1>
                                 <div className="btn-box animate-4">
-                                    <Link  to="/about-us" className="theme-btn btn-style-one">
-                                    <span className="btn-title">Discover more</span></Link >
+                                    <a  href="#offer" className="theme-btn btn-style-one">
+                                    <span className="btn-title">Discover more</span></a>  
                                 </div>
                             </div>
                         </div>

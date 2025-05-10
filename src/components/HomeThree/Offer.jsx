@@ -7,7 +7,7 @@ function OfferSectionTwo() {
 
     return (
         <>
-            <section className="offer-section-three pt-0">
+            <section className="offer-section-three pt-0" id='offer'>
                 <div className="auto-container">
                     <div className="row">
                         {/* Content Column */}
