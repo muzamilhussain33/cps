@@ -58,9 +58,10 @@ and help our clients to improve business efficiency.</div>
                                 <div className="widget-content">
                                     <div className="text fs-5">Deira, Dubai, U.A.E.</div>
                                     <ul className="contact-info">
-                                        <li><i className="fa fa-envelope"></i> <Link  to="mailto:hr.callbackcrew@gmail.com">info@coralplus.ae</Link ></li>
+                                        <li><i className="fa fa-envelope"></i> <Link  to="mailto:hr.callbackcrew@gmail.com">Sales@coralplus.ae</Link ></li>
                                         <li><i className="fa fa-phone-square"></i> <Link to="tel:+971588996975">+971588996975</Link >
-                                        <Link className='ml-10' to="tel:+971588838616">+971588838616</Link ></li>
+                                        {/* <Link className='ml-10' to="tel:+971588838616">+971588838616</Link > */}
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -95,7 +96,7 @@ and help our clients to improve business efficiency.</div>
 
             {/* Footer Bottom */}
             <div className="footer-bottom ">
-                <div className="auto-container d-flex justify-content-start align-items-start bg-transparent">
+                <div className="auto-container d-flex justify-content-center bg-transparent">
                     <div className="inner-container">
                         <div className="copyright-text">&copy; Copyright reserved by <Link  to="/">info@coralplus.ae</Link ></div>
                     </div>

@@ -34,8 +34,8 @@ function BannerSectionTwo({ className }) {
                         <div className="bg-image" style={{ backgroundImage: `url(${Image1})` }}></div>
                         <div className="auto-container">
                             <div className="content-box">
-                                <span className="sub-title animate-2">Solutions for your businesses</span>
-                                <h1 className="title animate-3">Technology Solutions for Future</h1>
+                                <span className="animate-2">Your Security is our First Priority</span>
+                                <h1 className="title animate-3">Security and IT Solutions for your Home & Business</h1>
                                 
                                 <div className="btn-box animate-4">
                                     <a  href="#offer" className="theme-btn btn-style-one">
@@ -50,8 +50,8 @@ function BannerSectionTwo({ className }) {
                         <div className="bg-image" style={{ backgroundImage: `url(${Image2})` }}></div>
                         <div className="auto-container">
                             <div className="content-box">
-                                <span className="sub-title animate-2">Solutions for your businesses</span>
-                                <h1 className="title animate-3">Technology Solutions for Future</h1>
+                                <span className="animate-2">Your Security is our First Priority</span>
+                                <h1 className="title animate-3">Security and IT Solutions for your Home & Business</h1>
                                 <div className="btn-box animate-4">
                                     <a  href="#offer" className="theme-btn btn-style-one">
                                     <span className="btn-title">Discover more</span></a>  

@@ -50,32 +50,32 @@ function ContactSectionTwo() {
                                 {/* Contact Form */}
                                 <form method="post" action="get" id="contact-form">
                                     <div className="form-group">
-                                        {/* <input type="text" name="full_name" placeholder="Your Name" required /> */}
+                                        <input type="text" name="full_name" placeholder="Your Name" required />
                                     </div>
 
                                     <div className="form-group">
-                                        {/* <input type="text" name="Email" placeholder="Email Address" required /> */}
-                                        <FaWhatsapp className='mr-10'/>
-                                        +971588996975, +971588838616
+                                        <input type="text" name="Email" placeholder="Email Address" required />
+                                        {/* <FaWhatsapp className='mr-10'/>
+                                        +971588996975 */}
                                     </div>
 
                                     <div className="form-group">
-                                        {/* <input type="text" name="Phone" placeholder="Phone Number" required /> */}
-                                        <CgMail className='mr-10'/>
-                                        info@coralplus.ae
+                                        <input type="text" name="Phone" placeholder="Phone Number" required />
+                                        {/* <CgMail className='mr-10'/>
+                                        Sales@coralplus.ae */}
                                     </div>
 
                                     <div className="form-group">
-                                        {/* <textarea name="message" placeholder="Write a Message" required></textarea> */}
-                                        <BsBrowserChrome className='mr-10'/>
-                                        www.coralplus.ae
+                                        <textarea name="message" placeholder="Write a Message" required></textarea>
+                                        {/* <BsBrowserChrome className='mr-10'/>
+                                        www.coralplus.ae */}
                                     </div>
 
-                                    {/* <div className="form-group">
+                                    <div className="form-group">
                                         <button className="theme-btn btn-style-one" type="submit" name="submit-form">
                                             <span className="btn-title">Send a message</span>
                                         </button>
-                                    </div> */}
+                                    </div>
                                 </form>
                             </div>
                             {/* End Contact Form */}

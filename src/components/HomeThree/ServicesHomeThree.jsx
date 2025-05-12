@@ -67,7 +67,7 @@ function ServicesHomeThree({ className }) {
         <div className="auto-container">
 			<div className="sec-title text-center">
 				<span className="sub-title">Services we’re offering</span>
-				<h2>We Provide our Clients <br/>Best Services</h2>
+				<h2>Expert team with years of experience and <br/>Professionalism</h2>
 			</div>
 			<div className="outer-box">
 				<div className="row justify-content-center">
@@ -75,16 +75,16 @@ function ServicesHomeThree({ className }) {
 					<div className="service-block-three col wow fadeInUp ">
 						<div className="inner-box">
 							<img src={icon1} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link  to="/service-details">CCTV <br/>installation</Link ></h6>
-							<div className="text">Providing the solutions for tech business</div>
+							<h6 className="title"><Link  to="/service-details">AI Based CCTV<br/>Camera System</Link ></h6>
+							<div className="text">Home & Business</div>
 						</div>
 					</div>
 
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="200ms">
 						<div className="inner-box ">
 							<img src={icon2} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link  to="/service-details">ANPR <br/>Tracking Solutions</Link ></h6>
-							<div className="text">Providing the solutions for tech business</div>
+							<h6 className="title"><Link  to="/service-details">ANPR Systems</Link ></h6>
+							<div className="text">Installation & maintenance</div>
 						</div>
 					</div>
 
