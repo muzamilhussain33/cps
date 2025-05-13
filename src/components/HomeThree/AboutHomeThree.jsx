@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import AboutImage1 from '../../assets/images/resource/about-9.jpg';
+import AboutImage1 from '../../assets/images/resource/about-9.jpeg';
 import AboutImage2 from '../../assets/images/resource/about-10.jpg';
 import AboutThumb from '../../assets/images/resource/thumb-1.jpg';
 function AboutHomeThree({ className }) {
