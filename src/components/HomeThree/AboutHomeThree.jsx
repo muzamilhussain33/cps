@@ -14,8 +14,7 @@ function AboutHomeThree({ className }) {
                             <div className="inner-column">
                                 <div className="sec-title">
                                     <span className="sub-title">About Our Company</span>
-                                    <h2>IT INFRASTRUCTURES | SECURITY SYSTEMS | ELV SOLUTIONS |
-                                        ELECTRICAL SERVICES</h2>
+                                    <h2 className='fs-1'>IT INFRASTRUCTURES | SECURITY SYSTEMS | ELV SOLUTIONS</h2>
                                     <div className="text">
                                         We are Coral Plus Security, A name in IT infrastructures, Security Systems SIRA approvals,
                                         and ELV Solution providers in the U.A.E. Founded by a team of talented and

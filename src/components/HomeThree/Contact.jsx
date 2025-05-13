@@ -26,7 +26,7 @@ function ContactSectionTwo() {
                                 To deliver the best reliable solution in IT infrastructures, security systems, ELV solutions,
                                 and help our clients to improve business efficiency.
                                 </div>
-                            </div>
+                            </div>b
                             <div className="info-box">
                                 <span className="icon fa fa-check"></span>
                                 <h5 className="title">OUR VISION</h5>

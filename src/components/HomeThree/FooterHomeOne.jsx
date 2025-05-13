@@ -10,6 +10,8 @@ import Portfolio4 from '../../assets/images/resource/project-thumb-4.jpg';
 import Portfolio5 from '../../assets/images/resource/project-thumb-5.jpg';
 import Portfolio6 from '../../assets/images/resource/project-thumb-6.jpg';
 import MapSection from "../HomeOne/Map";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 function FooterHomeOne({ className }) {
     return (
@@ -68,10 +70,9 @@ and help our clients to improve business efficiency.</div>
                         </div>
 
                         <ul className="social-icon-two d-flex flex-row align-items-center justify-content-xl-between flex-xl-column">
-                                    <li><Link  to="#"><i className="fab fa-twitter"></i></Link ></li>
-                                    <li><Link  to="#"><i className="fab fa-facebook"></i></Link ></li>
-                                    <li><Link  to="#"><i className="fab fa-pinterest"></i></Link ></li>
-                                    <li><Link  to="#"><i className="fab fa-instagram"></i></Link ></li>
+                                    <li><Link  to="https://www.facebook.com/share/1G5YY3q2tS/?mibextid=wwXIfr"><i className="fab fa-facebook"></i></Link ></li>
+                                    <li><Link to="https://www.tiktok.com/@coralplus.ae?_t=ZS-8wJc6gWSPDh&_r=1"><i className="fab fa-tiktok"></i></Link></li>
+                                    <li><Link to="https://g.co/kgs/p5DpJ8q"><i className="fab fa-google"></i></Link></li>
                                 </ul>
 
                         {/* Footer Column - Gallery */}
@@ -98,7 +99,7 @@ and help our clients to improve business efficiency.</div>
             <div className="footer-bottom ">
                 <div className="auto-container d-flex justify-content-center bg-transparent">
                     <div className="inner-container">
-                        <div className="copyright-text">&copy; Copyright reserved by <Link  to="/">info@coralplus.ae</Link ></div>
+                        <div className="copyright-text">&copy; Copyright reserved by <Link  to="/">Sales@coralplus.ae</Link ></div>
                     </div>
                 </div>
             </div>

@@ -11,7 +11,7 @@ function VideoHomeTwo({ className }) {
                 <div className="auto-container">
                     <div className="outer-box">
                         <div className="title-box text-center">
-                            <h3 className="title">SECURITY SYSTEMS<br />IT INFRASTRUCTURES 
+                            <h3 className="title fs-1">SECURITY SYSTEMS<br />IT INFRASTRUCTURES 
                                         COMPLETE ELV SOLUTIONS</h3>
                             <div className="text">
                                 It is not just a profession; <br />it's a passion for our company. We tend to believe...

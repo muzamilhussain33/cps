@@ -38,10 +38,9 @@ function Header({ action, className, scroll }) {
                     <div className="inner-container ">
                         <div className="top-left">
                             <ul className="social-icon-one">
-                                <li><Link  to="#"><span className="fab fa-twitter"></span></Link ></li>
-                                <li><Link  to="#"><span className="fab fa-facebook-square"></span></Link ></li>
-                                <li><Link  to="#"><span className="fab fa-pinterest-p"></span></Link ></li>
-                                <li><Link  to="#"><span className="fab fa-instagram"></span></Link ></li>
+                                <li><Link  to="https://www.facebook.com/share/1G5YY3q2tS/?mibextid=wwXIfr"><i className="fab fa-facebook"></i></Link ></li>
+                                <li><Link to="https://www.tiktok.com/@coralplus.ae?_t=ZS-8wJc6gWSPDh&_r=1"><i className="fab fa-tiktok"></i></Link></li>
+                                <li><Link to="https://g.co/kgs/p5DpJ8q"><i className="fab fa-google"></i></Link></li>
                             </ul>
                         </div>
 
@@ -107,7 +106,7 @@ function Header({ action, className, scroll }) {
                             <div className="contact-info-box">
                                 <i className="icon lnr-icon-phone-handset"></i>
                                 <span className="title">Call Now</span>
-                                <a href="tel:+92880098670">+971588996975, +971588838616</a>
+                                <a href="tel:+971588996975">+971588996975</a>
                             </div>
                         </li>
                         <li>
@@ -115,7 +114,7 @@ function Header({ action, className, scroll }) {
                             <div className="contact-info-box">
                                 <span className="icon lnr-icon-envelope1"></span>
                                 <span className="title">Send Email</span>
-                                <a href="mailto:help@company.com">info@coralplus.ae</a>
+                                <a href="mailto:help@company.com">Sales@coralplus.ae</a>
                             </div>
                         </li>
                         {/* <li> */}
@@ -128,10 +127,9 @@ function Header({ action, className, scroll }) {
                         {/* </li> */}
                     </ul>
                     <ul className="social-Link d-flex justify-content-evenly">
-                        <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i className="fab fa-pinterest"></i></a></li>
-                        <li><a href="#"><i className="fab fa-instagram"></i></a></li>
+                        <li><Link  to="https://www.facebook.com/share/1G5YY3q2tS/?mibextid=wwXIfr"><i className="fab fa-facebook"></i></Link ></li>
+                        <li><Link to="https://www.tiktok.com/@coralplus.ae?_t=ZS-8wJc6gWSPDh&_r=1"><i className="fab fa-tiktok"></i></Link></li>
+                        <li><Link to="https://g.co/kgs/p5DpJ8q"><i className="fab fa-google"></i></Link></li>
                     </ul>
                 </nav>
             </div>

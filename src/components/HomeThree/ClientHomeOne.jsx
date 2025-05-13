@@ -29,10 +29,10 @@ const swiperOptions = {
     loop: true,
     breakpoints: {
         320: {
-            slidesPerView: 1,
+            slidesPerView: 3,
         },
         575: {
-            slidesPerView: 2,
+            slidesPerView: 3,
         },
         767: {
             slidesPerView: 3,
@@ -56,34 +56,34 @@ function ClientHomeOne({ className }) {
                 <div className="auto-container">
                     <div className="sponsors-outer">
                         <Swiper {...swiperOptions} className="clients-carousel">
-                            <SwiperSlide className="slide-item">
+                            <SwiperSlide className="">
                                 <Link  to="#"><img src={ClientImage} alt="Client 1" /></Link >
                             </SwiperSlide>
-                            <SwiperSlide className="slide-item">
+                            <SwiperSlide className="">
                                 <Link  to="#"><img src={ClientImage1} alt="Client 2" /></Link >
                             </SwiperSlide>
-                            <SwiperSlide className="slide-item">
+                            <SwiperSlide className="">
                                 <Link  to="#"><img src={ClientImage2} alt="Client 3" /></Link >
                             </SwiperSlide>
-                            <SwiperSlide className="slide-item">
+                            <SwiperSlide className="">
                                 <Link  to="#"><img src={ClientImage3} alt="Client 4" /></Link >
                             </SwiperSlide>
-                            <SwiperSlide className="slide-item">
+                            <SwiperSlide className="">
                                 <Link  to="#"><img src={ClientImage4} alt="Client 5" /></Link >
                             </SwiperSlide>
-                            <SwiperSlide className="slide-item">
+                            <SwiperSlide className="">
                                 <Link  to="#"><img src={ClientImage5} alt="Client 6" /></Link >
                             </SwiperSlide>
-                            <SwiperSlide className="slide-item">
+                            <SwiperSlide className="">
                                 <Link  to="#"><img src={ClientImage6} alt="Client 7" /></Link >
                             </SwiperSlide>
-                            <SwiperSlide className="slide-item">
+                            <SwiperSlide className="">
                                 <Link  to="#"><img src={ClientImage7} alt="Client 8" /></Link >
                             </SwiperSlide>
-                            <SwiperSlide className="slide-item">
+                            <SwiperSlide className="">
                                 <Link  to="#"><img src={ClientImage8} alt="Client 8" /></Link >
                             </SwiperSlide>
-                            <SwiperSlide className="slide-item">
+                            <SwiperSlide className="">
                                 <Link  to="#"><img src={ClientImage9} alt="Client 8" /></Link >
                             </SwiperSlide>
                         </Swiper>
