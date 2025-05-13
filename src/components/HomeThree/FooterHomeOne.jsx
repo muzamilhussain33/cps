@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link  } from 'react-router-dom';
 import logo from '../../assets/images/logo.png';
+import logo1 from "../../assets/images/logo3.png"
 import Image1 from '../../assets/images/background/2.jpg';
 import Image2 from '../../assets/images/background/4.jpg'
 import Portfolio1 from '../../assets/images/resource/project-thumb-1.jpg';
@@ -26,7 +27,7 @@ function FooterHomeOne({ className }) {
                         <div className="footer-column col-xl-3 col-lg-12 col-md-6 col-sm-12 ">
                             <div className="footer-widget about-widget">
                                 <div className="logo">
-                                    <Link  to="/"><img src={logo} alt="Logo" /></Link >
+                                    <Link  to="/"><img src={logo1} alt="Logo" /></Link >
                                 </div>
                                 <div className="text fs-5">To deliver the best reliable solution in IT infrastructures, security systems, ELV solutions,
 and help our clients to improve business efficiency.</div>

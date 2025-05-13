@@ -75,7 +75,7 @@ function ServicesHomeThree({ className }) {
 			<div className="sec-title text-center">	
 				<span className=" ">Expert team with years of experience and Professionalism</span>
 				<br />
-				<h2 className='sub-title fs-1 mt-3'>Services we’re offering</h2>
+				<h2 className='sub-title fs-1 mt-3'>Services We Offer</h2>
 			</div>
 			<div className="outer-box">
 				<div className="row justify-content-center">
@@ -92,7 +92,7 @@ function ServicesHomeThree({ className }) {
 						<div className="inner-box">
 							<img src={icon13} className='icon p-10 ' alt="" />
 							<h6 className="title"><Link>SIRA APPROVALS </Link ></h6>
-							<div className="text">NOC/ AMC
+							<div className="text">NOC/ AMC <br/>
 								New or existing licenses</div>
 						</div>
 					</div>
