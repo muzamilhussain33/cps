@@ -15,6 +15,7 @@ import icon9 from '../../assets/images/resource/png/LIGHT-FIXING.png';
 import icon10 from '../../assets/images/resource/png/SECURITY-ALARM.png';
 import icon11 from '../../assets/images/resource/png/SPEAKER-SYSTEMS.png';
 import icon12 from '../../assets/images/resource/png/TELEPHONES.png';
+import icon13 from "../../assets/images/resource/sidra.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
@@ -81,15 +82,23 @@ function ServicesHomeThree({ className }) {
 					<div className="service-block-three col wow fadeInUp ">
 						<div className="inner-box">
 							<img src={icon1} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link  to="/service-details">AI BASED CCTV<br/>CAMERA SYSTEM</Link ></h6>
+							<h6 className="title"><Link>AI BASED CCTV<br/> CAMERA SYSTEM</Link ></h6>
 							<div className="text">Home & Business</div>
+						</div>
+					</div>
+
+					<div className="service-block-three col wow fadeInUp ">
+						<div className="inner-box">
+							<img src={icon13} className='icon p-10 ' alt="" />
+							<h6 className="title"><Link>SIRA</Link ></h6>
+							<div className="text">Grade 3 Sira approved</div>
 						</div>
 					</div>
 
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="200ms">
 						<div className="inner-box ">
 							<img src={icon2} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link  to="/service-details">ANPR SYSTEM</Link ></h6>
+							<h6 className="title"><Link>ANPR SYSTEM</Link ></h6>
 							<div className="text">Installation & maintenance</div>
 						</div>
 					</div>
@@ -97,15 +106,15 @@ function ServicesHomeThree({ className }) {
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="400ms">
 						<div className="inner-box ">
 							<img src={icon3} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link  to="/service-details">ACCESS GATES <br/>SYSTEM</Link ></h6>
-							<div className="text">Providing the solutions for tech business</div>
+							<h6 className="title"><Link>ACCESS GATES <br/>SYSTEM</Link ></h6>
+							<div className="text">Turnstiles/ Parking Barriers Smart recognition system</div>
 						</div>
 					</div>
 
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="600ms">
 						<div className="inner-box ">
 							<img src={icon4} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link  to="/service-details">ATTENDANCE <br/>MACHINES</Link ></h6>
+							<h6 className="title"><Link>ATTENDANCE <br/>MACHINES</Link ></h6>
 							<div className="text">Time attendece system biometrice/phase/cards</div>
 						</div>
 					</div>
@@ -113,21 +122,21 @@ function ServicesHomeThree({ className }) {
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
 						<div className="inner-box">
 							<img src={icon5} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link  to="/service-details">DOOR <br/>ACCESS CONTROLS </Link ></h6>
+							<h6 className="title"><Link>DOOR <br/>ACCESS CONTROLS </Link ></h6>
 							<div className="text">Magnetic lock/smart access</div>
 						</div>
 					</div>
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
 						<div className="inner-box">
 							<img src={icon6} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link  to="/service-details">GATE <br/>BARRIERS</Link ></h6>
+							<h6 className="title"><Link>GATE <br/>BARRIERS</Link ></h6>
 							<div className="text">Car number plate integration/smart access</div>
 						</div>
 					</div>
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
 						<div className="inner-box">
 							<img src={icon7} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link  to="/service-details">INTERCOMS <br/> DEVIECES</Link ></h6>
+							<h6 className="title"><Link>INTERCOMS <br/> DEVIECES</Link ></h6>
 							<div className="text">Audio/video/mobile access</div>
 						</div>
 					</div>
@@ -141,28 +150,28 @@ function ServicesHomeThree({ className }) {
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
 						<div className="inner-box">
 							<img src={icon9} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link  to="/service-details">LIGHT <br/>FIXING</Link ></h6>
+							<h6 className="title"><Link>LIGHT <br/>FIXING</Link ></h6>
 							<div className="text">Shop, Office, Warehouse etc</div>
 						</div>
 					</div>
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
 						<div className="inner-box">
 							<img src={icon10} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link  to="/service-details">ALARM <br/>SYSTEM</Link ></h6>
+							<h6 className="title"><Link>ALARM <br/>SYSTEM</Link ></h6>
 							<div className="text">Grade 3 Integra, Sira Appoved System </div>
 						</div>
 					</div>
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
 						<div className="inner-box">
 							<img src={icon11} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link  to="/service-details">SPEAKER <br/>SYSTEMS</Link ></h6>
+							<h6 className="title"><Link>SPEAKER <br/>SYSTEMS</Link ></h6>
 							<div className="text">Public address system</div>
 						</div>
 					</div>
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
 						<div className="inner-box">
 							<img src={icon12} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link  to="/service-details">TELEPHONE <br/>SYSTEM</Link ></h6>
+							<h6 className="title"><Link>TELEPHONE <br/>SYSTEM</Link ></h6>
 							<div className="text">Ip based PABX system</div>
 						</div>
 					</div>

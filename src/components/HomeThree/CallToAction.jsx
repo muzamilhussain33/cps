@@ -15,7 +15,7 @@ function CallToActionFour({ className }) {
                         <h3 className="title">Looking for the Best Security & IT Solutions?</h3>
                     </div>
                     <div className="btn-box">
-                        <Link  to="/" className="theme-btn btn-style-two hvr-light">
+                        <Link to='/' className="theme-btn btn-style-two hvr-light">
                             <span className="btn-title">Discover more</span>
                         </Link >
                     </div>
