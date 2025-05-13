@@ -73,7 +73,8 @@ function ServicesHomeThree({ className }) {
         <section className={`services-section-three ${className || ''}`} id='services'>
         <div className="auto-container">
 			<div className="sec-title text-center">	
-				<span className=" ">Expert team with <br />years of experience and Professionalism</span>
+				<span className=" ">Expert team with years of experience and Professionalism</span>
+				<br />
 				<h2 className='sub-title fs-1 mt-3'>Services we’re offering</h2>
 			</div>
 			<div className="outer-box">
