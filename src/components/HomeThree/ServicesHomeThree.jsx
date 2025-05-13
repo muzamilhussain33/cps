@@ -73,8 +73,8 @@ function ServicesHomeThree({ className }) {
         <section className={`services-section-three ${className || ''}`} id='services'>
         <div className="auto-container">
 			<div className="sec-title text-center">	
-				<h2 className='fs-1'>Expert team with <br />years of experience and Professionalism</h2>
-				<span className="sub-title mt-3">Services we’re offering</span>
+				<span className=" ">Expert team with <br />years of experience and Professionalism</span>
+				<h2 className='sub-title fs-1 mt-3'>Services we’re offering</h2>
 			</div>
 			<div className="outer-box">
 				<div className="row justify-content-center">
@@ -90,8 +90,9 @@ function ServicesHomeThree({ className }) {
 					<div className="service-block-three col wow fadeInUp ">
 						<div className="inner-box">
 							<img src={icon13} className='icon p-10 ' alt="" />
-							<h6 className="title"><Link>SIRA</Link ></h6>
-							<div className="text">Grade 3 Sira approved</div>
+							<h6 className="title"><Link>SIRA APPROVALS </Link ></h6>
+							<div className="text">NOC/ AMC
+								New or existing licenses</div>
 						</div>
 					</div>
 
@@ -130,7 +131,8 @@ function ServicesHomeThree({ className }) {
 						<div className="inner-box">
 							<img src={icon6} className='icon p-10 ' alt="" />
 							<h6 className="title"><Link>GATE <br/>BARRIERS</Link ></h6>
-							<div className="text">Car number plate integration/smart access</div>
+							<div className="text">Smart access/Integration 
+							with car number plate recognition</div>
 						</div>
 					</div>
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
