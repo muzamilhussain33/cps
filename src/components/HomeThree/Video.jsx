@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video';
-import VideoThumbnail from '../../assets/images/resource/video-img.jpg'; // Adjust the path as necessary
+import VideoThumbnail from '../../assets/images/resource/video-img.jpeg'; // Adjust the path as necessary
 
 function VideoHomeTwo({ className }) {
     const [isOpen, setOpen] = useState(false);
@@ -17,8 +17,8 @@ function VideoHomeTwo({ className }) {
                                 It is not just a profession; <br />it's a passion for our company. We tend to believe...
                             </div>
                         </div>
-                        <div className="video-box wow fadeInUp">
-                            <figure className="image">
+                        <div className="video-box wow fadeInUp d-flex justify-content-center">
+                            <figure className="">
                                 <img src={VideoThumbnail} alt="Video Thumbnail" />
                             </figure>
                             {/* <div className="content">

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import CounterUp from '../../lib/CounterUp.jsx';
 import ModalVideo from 'react-modal-video';
-import Image6 from '../../assets/images/resource/why-us-3.jpg';
+import Image6 from '../../assets/images/resource/why-us-3.jpeg';
 function ChooseUs() {
     const [isOpen, setOpen] = useState(false);
     const skill1 = 86;

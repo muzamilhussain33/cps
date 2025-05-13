@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video'; 
-import Image6 from '../../assets/images/resource/benefits.jpg'; // Adjust path to your image
+import Image6 from '../../assets/images/resource/benefits.jpeg'; // Adjust path to your image
 
 function OfferSectionTwo() {
     const [isOpen, setOpen] = useState(false);
