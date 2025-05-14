@@ -100,7 +100,7 @@ and help our clients to improve business efficiency.</div>
             <div className="footer-bottom ">
                 <div className="auto-container d-flex justify-content-center bg-transparent">
                     <div className="inner-container">
-                        <div className="copyright-text">&copy; Copyright reserved by <Link  to="/">Sales@coralplus.ae</Link ></div>
+                        <div className="copyright-text">&copy; Copyright reserved by <Link  to="/">coralplus.ae</Link ></div>
                     </div>
                 </div>
             </div>

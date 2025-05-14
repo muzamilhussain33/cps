@@ -40,7 +40,7 @@ function HomeThree() {
             {/* <FeaturesSectionFour /> */}
             {/* <BlogHomeThree /> */}
             {/* <LocationsSectionTwo /> */}
-            {/* <CallToActionFour /> */}
+            {/* <CallToActionFour />  */}
             <FooterHomeOne />
             <BackToTop />
         </>
