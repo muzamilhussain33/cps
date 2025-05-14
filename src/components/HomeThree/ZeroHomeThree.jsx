@@ -31,7 +31,7 @@ function BannerSectionTwo({ className }) {
                 <Swiper {...swiperOptions} className="banner-carousel owl-theme">
                     {/* Slide Item 1 */}
                     <SwiperSlide className="slide-item">
-                        <div className="bg-image" style={{ backgroundImage: `url(${Image1})` }}></div>
+                        <div className="bg-image" style={{ backgroundImage: `url(${Image1})`, filter: "blur(5px)"}}></div>
                         <div className="auto-container ">
                             <div className="content-box">
                                 <span className="animate-2 text-warning fs-5 ">Your Security is our First Priority</span>
@@ -47,7 +47,7 @@ function BannerSectionTwo({ className }) {
 
                     {/* Slide Item 2 */}
                     <SwiperSlide className="slide-item">
-                        <div className="bg-image" style={{ backgroundImage: `url(${Image2})` }}></div>
+                        <div className="bg-image" style={{ backgroundImage: `url(${Image2})`, filter: "blur(5px)" }}></div>
                         <div className="auto-container">
                             <div className="content-box">
                                 <span className="animate-2 text-warning fs-5">Your Security is our First Priority</span>

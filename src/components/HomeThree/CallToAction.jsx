@@ -11,7 +11,7 @@ function CallToActionFour({ className }) {
             <div className="auto-container">
                 <div className="outer-box wow fadeInUp">
                     <div className="title-box">
-                        <div className="sub-title">We’re here to secure your home and business.</div>
+                        <div className="sub-title text-warning">We’re here to secure your home and business.</div>
                         <h3 className="title">Looking for the Best Security & IT Solutions?</h3>
                     </div>
                     <div className="btn-box">

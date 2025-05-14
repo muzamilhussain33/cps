@@ -13,8 +13,9 @@ function CallToActionHomeTwo({ className }) {
                     <div className="icon bounce-y">
                         <img src={IconLogo} alt="Icon Logo" />
                     </div>
+                    <div className="sub-title text-warning">We’re here to secure your home and business.</div>
                     <h1 className="title">
-                         Solutions & Services <br /> at your Fingertips
+                         Looking for the Best <br />Security & IT Solutions?
                     </h1>
                     <Link  to="/" className="theme-btn btn-style-one hvr-light">
                         <span className="btn-title">get in touch</span>

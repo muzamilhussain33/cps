@@ -95,8 +95,8 @@ function ChooseUs() {
 
                         {/* Image Column */}
                         <div className="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
-                            <div className="image-box wow fadeInRight">
-                                <figure className="image overlay-anim">
+                            <div className="">
+                                <figure className="">
                                     <img src={Image6} alt="Why Choose Us" />
                                     {/* <a onClick={() => setOpen(true)} className="play-btn lightbox-image">
                                         <i className="icon fa fa-play"></i>
