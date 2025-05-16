@@ -22,36 +22,39 @@ function ContactSectionTwo() {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    setStatus(null);
-    try {
-      const res = await axios.post(
-        "http://localhost:5000/send-email",
-        {
-          name: form.name,
-          email: form.email,
-          phone: form.phone,
-          message: form.message,
-        },
-        { headers: { "Content-Type": "application/json" } }
-      );
+  e.preventDefault();
+  setStatus(null);
+  try {
+    const res = await axios.post(
+      "https://cps.up.railway.app/send-email", // updated URL
+      {
+        name: form.name,
+        email: form.email,
+        phone: form.phone,
+        message: form.message,
+      },
+      { headers: { "Content-Type": "application/json" } }
+    );
 
-      if (res.data.status === "success") {
-        setStatus({ type: "success", msg: res.data.message });
-        setForm({ name: "", email: "", phone: "", message: "" });
-      } else {
-        setStatus({ type: "error", msg: "Unexpected server response." });
-      }
-    } catch (err) {
-      console.error(err.response || err.message);
-      const msg =
-        err.response?.data?.message ||
-        "Server error, please try again later.";
-      setStatus({ type: "error", msg });
+    if (res.data.status === "success") {
+      setStatus({ type: "success", msg: res.data.message });
+      setForm({ name: "", email: "", phone: "", message: "" });
+    } else {
+      setStatus({ type: "error", msg: "Unexpected server response." });
     }
-  };
+  } catch (err) {
+    console.error(err.response || err.message);
+    const msg =
+      err.response?.data?.message ||
+      "Server error, please try again later.";
+    setStatus({ type: "error", msg });
+  }
+};
+
 
   return (
+
+
     <section className="contact-section-two pull-up mt-20" id="contact">
       <div className="auto-container">
         <div className="row">
