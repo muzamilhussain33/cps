@@ -97,6 +97,15 @@ function ServicesHomeThree({ className }) {
 						</div>
 					</div>
 
+					<div className="service-block-three col wow fadeInUp ">
+						<div className="inner-box">
+							<img src={icon13} className='icon p-10 ' alt="" />
+							<h6 className="title"><Link>ELV/MEP <br/> System Drawings </Link ></h6>
+							<div className="text">AutoCAD Architectural <br/>
+								drawings,SSD, SPC, SVG, Security Alarm</div>
+						</div>
+					</div>
+
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="200ms">
 						<div className="inner-box ">
 							<img src={icon2} className='icon p-10 ' alt="" />
