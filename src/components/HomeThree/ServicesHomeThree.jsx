@@ -10,7 +10,7 @@ import icon4 from '../../assets/images/resource/png/ATTENDANCE- MACHINES.png';
 import icon5 from '../../assets/images/resource/png/DOOR-ACCESS-CONTROLS.png';
 import icon6 from '../../assets/images/resource/png/GATE-BARRIERS.png';
 import icon7 from '../../assets/images/resource/png/INTERCOMS.png';
-import icon8 from '../../assets/images/resource/png/IT-SECURITY&ELV-SOLUTIONS.png';
+import icon8 from '../../assets/images/resource/png/s1.jpeg';
 import icon9 from '../../assets/images/resource/png/LIGHT-FIXING.png';
 import icon10 from '../../assets/images/resource/png/SECURITY-ALARM.png';
 import icon11 from '../../assets/images/resource/png/SPEAKER-SYSTEMS.png';
@@ -99,7 +99,7 @@ function ServicesHomeThree({ className }) {
 
 					<div className="service-block-three col wow fadeInUp ">
 						<div className="inner-box">
-							<img src={icon13} className='icon p-10 ' alt="" />
+							<img src={icon8} className='icon p-10 ' alt="" />
 							<h6 className="title"><Link>ELV/MEP <br/> System Drawings </Link ></h6>
 							<div className="text">AutoCAD Architectural <br/>
 								drawings,SSD, SPC, SVG, Security Alarm</div>
