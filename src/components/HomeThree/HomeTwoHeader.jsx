@@ -109,7 +109,7 @@ function Header({ action, className, scroll }) {
                             {/*<!-- Contact Info Box -->*/}
                             <div className="contact-info-box">
                                 <i className="icon lnr-icon-phone-handset"></i>
-                                <span className="title">Call Now</span>
+                                <span className="title">Call/Whatsapp Now</span>
                                 <a href="tel:+971588996975">+971588996975</a>
                             </div>
                         </li>
@@ -133,7 +133,11 @@ function Header({ action, className, scroll }) {
                     <ul className="social-Link d-flex justify-content-evenly">
                         <li><Link  to="https://www.facebook.com/share/1G5YY3q2tS/?mibextid=wwXIfr"><i className="fab fa-facebook"></i></Link ></li>
                         <li><Link to="https://www.tiktok.com/@coralplus.ae?_t=ZS-8wJc6gWSPDh&_r=1"><i className="fab fa-tiktok"></i></Link></li>
-                        <li><Link to="https://g.co/kgs/p5DpJ8q"><i className="fab fa-google"></i></Link></li>
+                        <li><Link to="https://g.co/kgs/eeQgZmh"><i className="fab fa-google"></i></Link></li>
+                                                    <li><Link to="https://wa.me/971588996975"
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"><i className="fab fa-whatsapp"></i>
+                                                    </Link></li>
                     </ul>
                 </nav>
             </div>

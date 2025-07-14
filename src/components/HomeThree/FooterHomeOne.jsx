@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link  } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/images/logo.png';
 import logo1 from "../../assets/images/logo3.png"
 import Image1 from '../../assets/images/background/2.jpg';
@@ -18,7 +18,7 @@ function FooterHomeOne({ className }) {
     return (
         <footer className={`main-footer ${className || ''}`}>
             <div className="bg-image" style={{ backgroundImage: `url(${Image1})` }}></div>
-            
+
             {/* Widgets Section */}
             <div className="widgets-section">
                 <div className="auto-container w-100">
@@ -27,10 +27,10 @@ function FooterHomeOne({ className }) {
                         <div className="footer-column col-xl-3 col-lg-12 col-md-6 col-sm-12 ">
                             <div className="footer-widget about-widget">
                                 <div className="logo">
-                                    <Link  to="/"><img src={logo1} alt="Logo" /></Link >
+                                    <Link to="/"><img src={logo1} alt="Logo" /></Link >
                                 </div>
                                 <div className="text fs-5">To deliver the best reliable solution in IT infrastructures, security systems, ELV solutions,
-and help our clients to improve business efficiency.</div>
+                                    and help our clients to improve business efficiency.</div>
                                 {/* <ul className="social-icon-two">
                                     <li><Link  to="#"><i className="fab fa-twitter"></i></Link ></li>
                                     <li><Link  to="#"><i className="fab fa-facebook"></i></Link ></li>
@@ -61,9 +61,9 @@ and help our clients to improve business efficiency.</div>
                                 <div className="widget-content">
                                     <div className="text fs-5">Deira, Dubai, U.A.E.</div>
                                     <ul className="contact-info">
-                                        <li><i className="fa fa-envelope"></i> <Link  to="mailto:hr.callbackcrew@gmail.com">Sales@coralplus.ae</Link ></li>
+                                        <li><i className="fa fa-envelope"></i> <Link to="mailto:hr.callbackcrew@gmail.com">Sales@coralplus.ae</Link ></li>
                                         <li><i className="fa fa-phone-square"></i> <Link to="tel:+971588996975">+971588996975</Link >
-                                        {/* <Link className='ml-10' to="tel:+971588838616">+971588838616</Link > */}
+                                            {/* <Link className='ml-10' to="tel:+971588838616">+971588838616</Link > */}
                                         </li>
                                     </ul>
                                 </div>
@@ -71,10 +71,14 @@ and help our clients to improve business efficiency.</div>
                         </div>
 
                         <ul className="social-icon-two d-flex flex-row align-items-center justify-content-xl-between flex-xl-column">
-                                    <li><Link  to="https://www.facebook.com/share/1G5YY3q2tS/?mibextid=wwXIfr"><i className="fab fa-facebook"></i></Link ></li>
-                                    <li><Link to="https://www.tiktok.com/@coralplus.ae?_t=ZS-8wJc6gWSPDh&_r=1"><i className="fab fa-tiktok"></i></Link></li>
-                                    <li><Link to="https://g.co/kgs/p5DpJ8q"><i className="fab fa-google"></i></Link></li>
-                                </ul>
+                            <li><Link to="https://www.facebook.com/share/1G5YY3q2tS/?mibextid=wwXIfr"><i className="fab fa-facebook"></i></Link ></li>
+                            <li><Link to="https://www.tiktok.com/@coralplus.ae?_t=ZS-8wJc6gWSPDh&_r=1"><i className="fab fa-tiktok"></i></Link></li>
+                            <li><Link to="https://g.co/kgs/p5DpJ8q"><i className="fab fa-google"></i></Link></li>
+                            <li><Link to="https://wa.me/971588996975"
+                                target="_blank"
+                                rel="noopener noreferrer"><i className="fab fa-whatsapp"></i>
+                            </Link></li>
+                        </ul>
 
                         {/* Footer Column - Gallery */}
                         {/* <div className="footer-column col-xl-3 col-lg-4 col-md-6 col-sm-12">
@@ -100,7 +104,7 @@ and help our clients to improve business efficiency.</div>
             <div className="footer-bottom ">
                 <div className="auto-container d-flex justify-content-center bg-transparent">
                     <div className="inner-container">
-                        <div className="copyright-text">&copy; Copyright reserved by <Link  to="/">coralplus.ae</Link ></div>
+                        <div className="copyright-text">&copy; Copyright reserved by <Link to="/">coralplus.ae</Link ></div>
                     </div>
                 </div>
             </div>
